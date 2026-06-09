@@ -70,7 +70,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 /*	Correccion
        * El __root.tsx tenía todos los metadatos genéricos de Lovable sin reemplazar. Si alguien comparte el link, aparecería "Lovable App" en lugar del restaurante.
 */
-export const Route = createRootRouteWithContext<{ queryClient: QueryClient })()({
+export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
