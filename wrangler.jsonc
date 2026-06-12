@@ -3,5 +3,5 @@
   "name": "portafolio1",
   "compatibility_date": "2026-06-09",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "src/server.ts"
+  "main": ".output/public/_worker.js"
 }
