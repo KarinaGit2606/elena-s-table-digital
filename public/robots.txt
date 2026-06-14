@@ -6,5 +6,6 @@
 User-agent: *
 Disallow: /
 
-Sitemap: https://portafolio1.kreaweb.com.ar/sitemap.xml
+# Sitemap: https://portafolio1.kreaweb.com.ar/sitemap.xml
+Sitemap: https://portafolio1-a6m.pages.dev/sitemap.xml
 
