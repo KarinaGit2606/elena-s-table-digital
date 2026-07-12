@@ -1,7 +1,8 @@
 import { useState } from "react";
-import entradasImg from "@/assets/menu-entradas.jpg";
-import postresImg from "@/assets/menu-postres.jpg";
-import heroImg from "@/assets/hero-plato.jpg";
+import entradasImg from "@/assets/menu-entradas.webp";
+import postresImg from "@/assets/menu-postres.webp";
+import heroImg from "@/assets/hero-plato.webp";
+import bebidasImg from "@/assets/Bebidas.webp";
 
 type Item = { name: string; desc: string; price: string };
 type Category = { id: string; label: string; image: string; items: Item[] };
@@ -42,7 +43,7 @@ const categories: Category[] = [
   {
     id: "bebidas",
     label: "Bebidas",
-    image: entradasImg,
+    image: bebidasImg,
     items: [
       { name: "Malbec de la casa", desc: "Mendoza, copa", price: "$ 3.200" },
       { name: "Limonada con menta", desc: "Jarra 1L", price: "$ 3.800" },
