@@ -78,6 +78,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "La Mesa de Elena · Cocina casera argentina en Buenos Aires" },
       { name: "description", content: "Restaurante familiar de comida casera argentina. Carnes, pastas y postres con recetas de tres generaciones. Reservá tu mesa." },
       { name: "author", content: "KreaWeb" },
+/*	Correccion
+       *agrego robots, content:"no index, no follow" para que google no lo indexe, porque forma parte de un portafolio dentro de mis servicios
+*/
+      { name: "robots", content: "noindex, nofollow" },
       { property: "og:title", content: "La Mesa de Elena · Cocina casera argentina en Buenos Aires" },
       { property: "og:description", content: "Cocina casera argentina con alma. Reservá tu mesa en Buenos Aires." },
       { property: "og:type", content: "website" },
